@@ -78,9 +78,9 @@ import com.frosquivel.magicalcamera.Utilities.ConvertSimpleImage;
 import com.github.clans.fab.FloatingActionButton;
 import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.gms.vision.face.Landmark;
-import com.crashlytics.android.Crashlytics;
+//import com.crashlytics.android.Crashlytics;
 
-import io.fabric.sdk.android.Fabric;
+//import io.fabric.sdk.android.Fabric;
 
 import java.util.List;
 import java.util.Map;
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics());
+//        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_main);
         setUIComponents();
 
